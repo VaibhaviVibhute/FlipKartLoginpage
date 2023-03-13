@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flipkart Login Page</title>
+</head>
+<style>
+    *{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+    main{
+        height: 550px;
+        width: 820px;
+        border: 1px solid white;
+        display: flex;
+        margin: 0 auto;
+        margin-top: 50px;
+        box-shadow: 0px 0px 5px gray;
+    }
+    .child{
+        height: 550px;
+        width: 298px;
+        /* border: 1px solid; */
+       
+    }
+    #child1{
+        width: 340px;
+        background-color:#2874f0;
+        
+    }
+    #child2{
+       width: 480px ;
+    }
+    #log{
+        height: 40px;
+        width: 80px;
+        /* border: 1px solid black; */
+        color: white;
+        font-size: 30px;
+        font-weight: 500;
+        font-family: Roboto,Arial,sans-serif;
+        margin-top: 40px;
+        margin-left: 30px;
+    }
+    #cont{
+        height: 70px;
+        width: 300px;
+        /* border: 1px solid black; */
+        margin-top: 30px;
+        margin-left: 30px;
+    }
+    .con{
+        height: 30px;
+        width: 300px;
+        /* border: 1px solid black; */
+        color:beige;
+        font-size: 16px;
+        font-weight: 500;
+        font-family: Roboto,Arial,sans-serif;
+    }
+    #img{
+        height: 150px;
+        width: 250px;
+        /* border: 1px solid black; */
+        margin-top: 180px;
+        margin-left: 10px;
+        background-image: url(https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/login_img_c4a81e.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+
+    /* child2 */
+    #ch{
+        height: 180px;
+        width: 440px;
+        /* border: 1px solid black; */
+        margin-top: 50px;
+        margin-left: 30px;
+    }
+    #inp{
+        height: 40px;
+        width: 425px;
+        border: 1px solid gray; 
+        font-size: 30px;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        border-width: 2px;
+    }
+    #inp1{
+        border: none;
+    }
+    #terms{
+        height: 15px;
+        width: 420px;
+        /* border:1px solid black; */
+        font-size: 13px;
+        font-family: Roboto,Arial,sans-serif;
+        margin-top: 30px;
+    }
+    .a1{
+        text-decoration: none;
+    }
+    #req{
+        height: 50px;
+        width: 425px;
+        /* border: 1px solid black; */
+        font-size: 18px;
+        margin-top: 30px;
+        background-color:#fb641b;
+        color: white;
+        font-family: Roboto,Arial,sans-serif;
+        padding: 13px 150px;
+    }
+    #acc{
+        height: 30px;
+        width: 420px;
+        /* border: 1px solid black; */
+        margin-top: 280px;
+        padding-left: 90px;
+    }
+    #a2{
+        font-family: Roboto,Arial,sans-serif;
+        text-decoration: none;
+        font-size: 15px;
+        font-weight: 500;
+        color: #2874f0;
+    }
+</style>
+<body>
+    <main>
+        <div class="child" id="child1">
+            <div id="log">Login</div>
+            <div id="cont">
+                <div class="con" id="con1">Get access to your Orders,</div>
+                <div class="con" id="con2">Wishlist and Recommendations</div>
+                <div id="img"></div>
+            </div>
+        </div>
+        <div class="child" id="child2">
+            <div id="ch">
+                <div id="inp">
+                    <input type="email" name="" id="inp1" size="60" height="80px" placeholder="Enter Email/Mobile number">
+                </div>
+                <div id="terms">By continuing, you agree to Flipkart's <a href="#" class="a1"> Terms of Use</a> and <a href="#" class="a1"> Privacy Policy. </a></div>
+                <div id="req">Request OTP</div>
+                <div id="acc">
+                    <a href="#" id="a2">New to Flipkart? Create an account</a>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
